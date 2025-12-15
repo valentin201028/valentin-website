@@ -23,4 +23,11 @@ export default defineNuxtConfig({
     defaultLocale: "hu",
     strategy: "prefix_except_default",
   },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      ]
+    }
+  },
 });
