@@ -8,7 +8,9 @@ export default defineNuxtConfig({
   },
   srcDir: "app/",
   modules: ["@nuxtjs/i18n"],
-
+  devServer: {
+    host: "0.0.0.0",
+  },
   i18n: {
     locales: [
       {
